@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="user-card">
+        <h2>User Profile</h2>
+        <p><strong>ID:</strong> <span id="userId">1</span></p>
+        <p><strong>Name:</strong> <span id="userName">John Doe</span></p>
+        <p><strong>Email:</strong> <span id="userEmail">john.doe@example.com</span></p>
+        
+        <h3>Contact Information</h3>
+        <p><strong>Phone:</strong> <span id="userPhone">+1-555-555-5555</span></p>
+        
+        <h4>Address:</h4>
+        <p id="userAddress">123 Main St<br>
+        Anytown, CA 12345</p>
+        
+        <h3>Account Status</h3>
+        <p id="accountStatus" class="active-status">● Active</p>
+        
+        <h3>Roles</h3>
+        <div id="userRoles" class="roles">
+            <span class="role-badge">user</span>
+            <span class="role-badge">admin</span>
+        </div>
+        
+        <p><strong>Last Login:</strong> <span id="lastLogin">2024-01-24 10:30:00 UTC</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
